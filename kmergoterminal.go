@@ -25,7 +25,7 @@ func typeG () {
     msg := "ATATATAGATAGCGC"
     for i := 0; i <= len(msg)-2; i++ {
            if string(msg[i:i+2][len(msg[i:i+2])-1:]) == "T"{
-           fmt.Println("The kmers with the typeA are:")
+           fmt.Println("The kmers with the typeT are:")
            fmt.Println(msg[i:i+2])
             
         }
@@ -35,7 +35,7 @@ func typeC () {
     msg := "ATATATAGATAGCGC"
     for i := 0; i <= len(msg)-2; i++ {
            if string(msg[i:i+2][len(msg[i:i+2])-1:]) == "G"{
-           fmt.Println("The kmers with the typeA are:")
+           fmt.Println("The kmers with the typeG are:")
            fmt.Println(msg[i:i+2])
             
         }
@@ -45,7 +45,7 @@ func typeA () {
     msg := "ATATATAGATAGCGC"
     for i := 0; i <= len(msg)-2; i++ {
            if string(msg[i:i+2][len(msg[i:i+2])-1:]) == "C"{
-           fmt.Println("The kmers with the typeA are:")
+           fmt.Println("The kmers with the typeC are:")
            fmt.Println(msg[i:i+2])
             
         }
